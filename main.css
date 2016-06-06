@@ -1,0 +1,100 @@
+body{
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  padding: 70px;
+}
+img{
+  width:70%;
+  margin: auto;
+}
+.image{
+  margin-top: 70px;
+}
+.content{
+  padding: 70px;
+}
+hr{
+  height:5px;
+  border:none;
+  color:#333;
+  background-color:#333;
+  width:50%;
+  position: absolute;
+  left:70px;
+}
+i{
+  position: relative;
+  float:right;
+  right: 20px;
+}
+#portfolio{
+  padding: 10px;
+}
+#contact{
+  padding: 10px;
+}
+.contactdat, .fo{
+  padding: 40px;
+}
+
+.aboutthis{
+  background-color: #b3b3cc;
+  padding: 40px;
+}
+nav,footer{
+  background-color: purple;
+  padding:20px;
+  width:100%;
+}
+nav{
+  position:fixed;
+  width: 100%;
+  margin:0;
+  box-shadow: 1px 1px 20px; 
+}
+.navbar-brand, .foot{ 
+  color:white;
+   font-size:30px;
+  padding-left: 30px;
+}
+.navbar-brand:hover, .web{
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 31px; 
+}
+.navbar-brand:visited, .foot, .co, .we{
+  color:white;
+}
+ul > li > a{
+  color: white;
+  font-size: 20px;
+}
+.co{
+  width: 50%;
+  margin: auto;
+  align:center; 
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+.about{
+  background-color: #b3b3cc;
+}
+.portfolio{
+  background-color: #f5f5f0;
+}
+.contact{
+  background-color: #e6e6ff;
+}
+input{
+border: none;
+border-color: transparent
+}
